@@ -1,0 +1,96 @@
+body{
+    background-color: bisque;
+}
+.one{
+    background-color: rgb(52, 47, 41);
+}
+.backer{
+    background-image: url("../image/goo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+    position: relative;
+}
+
+h1, .par{
+    color: bisque;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+h2{
+    text-align: center;
+}
+.dokme{
+    color: black;
+    background-color: beige;
+    margin-left: 12px;
+    border-radius: 15px;
+
+}
+.dokme:hover{
+    color: aliceblue;
+    background-color: rgb(59, 59, 44);
+}
+
+@media screen and( min-width:765px) {
+    .backer{
+       height:900px;
+    }
+    .tak{
+        width: 80px;
+        border-radius: 15px;
+    }
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.tabs {
+    display: flex;
+    gap: 10px;
+}
+.tab {
+    padding: 10px 20px;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+.tab.active {
+    background: #007bff;
+    color: white;
+}
+.content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* کارت‌ها کنار هم */
+    gap: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card img {
+    width: 50%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14... /* ادامه استایل‌ها */
+    color: #666;
+}
+.card .price {
+    font-weight: bold;
+    color: green;
+}
+

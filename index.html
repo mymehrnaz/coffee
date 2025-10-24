@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color: #ffe4c4;" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="tak" src="./image/ddt.png" width="70px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact</a>
+        </li>
+      </ul>
+       <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    </div>
+  </div>
+</nav>
+         </header>
+         <main>
+            <section class="one">
+                
+                <div class="backer">
+                    <h1>Coffee Shop</h1>
+                    <p class="par">Discover your taste</p>
+                    <button class="dokme">Shop Now</button>
+                </div>
+    
+            </section>
+            <section>
+                <h2 class="mt-2">Choose your favorite</h2>
+                <div class="container">
+        <div class="tabs">
+            <button class="tab" onclick="changeTab('seafood')">Hot Coffee</button>
+            <button class="tab" onclick="changeTab('veggie')">Iced Coffee</button>
+            <button class="tab" onclick="changeTab('meat')">Meat</button>
+            <button class="tab" onclick="changeTab('herbal')">Herbal</button>
+        </div>
+        <div id="content" class="content">
+            <!-- اینجا محتوا عوض می‌شه -->
+        </div>
+    </div>
+
+            </section>
+        </main>
+    <script src="src/main.js"></script>
+    
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
+</body>
+</html>
