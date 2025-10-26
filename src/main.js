@@ -2,32 +2,32 @@ function changeTab(category) {
     // داده‌های نمونه با جزئیات کارت (می‌تونی تصاویر واقعی بذاری)
     const foods = {
         seafood: [
-              { name: "Espresso", desc: "Ramen, lotus root, daikon radish...", img: "image/dagh.webp", price: "$5", cal: "300ml 359cal" },
-  { name: "Americano", desc: "Ramen, lotus root, daikon radish...", img: "image/usa.webp", price: "$5", cal: "300ml 359cal" },
+              { name: "Espresso", desc: "single shot = 30ml of pure espresso", img: "image/dagh.webp", price: "$5", cal: "300ml 359cal" },
+  { name: "Americano", desc: "espresso, milk with thick foam", img: "image/usa.webp", price: "$5", cal: "300ml 359cal" },
 
-            { name: "Latte", desc: "Ramen, lotus root, daikon radish...", img: "image/lattes.webp", price: "$5", cal: "300ml 359cal" },
-            { name: "Capuccino", desc: "Ramen, vegetable broth...", img: "image/capoch.webp", price: "$6", cal: "Available +6" }
+            { name: "Latte", desc: "espresso shot, milk with little foam", img: "image/lattes.webp", price: "$5", cal: "300ml 359cal" },
+            { name: "Capuccino", desc: "espresso shot, milk with lots of foam", img: "image/capoch.webp", price: "$6", cal: "Available +6" }
         ],
         veggie: [
-              { name: "Vanilla Latte", desc: "Ramen, lotus root, daikon radish...", img: "image/vanili.webp", price: "$5", cal: "300ml 359cal" },
-  { name: "Cafe Latte", desc: "Ramen, lotus root, daikon radish...", img: "image/icee.webp", price: "$5", cal: "300ml 359cal" },
+              { name: "Vanilla Latte", desc: "espresso shot, milk and vanilla", img: "image/vanili.webp", price: "$5", cal: "300ml 359cal" },
+  { name: "Cafe Latte", desc: "espresso shot, milk, ice", img: "image/icee.webp", price: "$5", cal: "300ml 359cal" },
 
-            { name: "Iced Americano", desc: "Ramen, pumpkin, greens...", img: "image/american.webp", price: "$5", cal: "300ml 359cal" },
-            { name: "Salted Caramel", desc: "Ramen, vegetable broth...", img: "image/karam.webp", price: "$4", cal: "Available +3" }
+            { name: "Iced Americano", desc: "espresso shot, cold water,ice", img: "image/american.webp", price: "$5", cal: "300ml 359cal" },
+            { name: "Salted Caramel", desc: "espresso shot, caramel sauce,milk", img: "image/karam.webp", price: "$4", cal: "Available +3" }
         ],
         meat: [
-              { name: "peanut butter chocolate shake", desc: "Ramen, lotus root, daikon radish...", img: "image/pinut.webp", price: "$5", cal: "300ml 359cal" },
-  { name: "Morning protain shake", desc: "Ramen, lotus root, daikon radish...", img: "image/morning.webp", price: "$5", cal: "300ml 359cal" },
+              { name: "peanut butter chocolate shake", desc: "chocolate protain whey,peanut butter,milk", img: "image/pinut.webp", price: "$5", cal: "300ml 359cal" },
+  { name: "Morniga protain shake", desc: "vanilla protain whey, moringa milk", img: "image/morning.webp", price: "$5", cal: "300ml 359cal" },
 
-            { name: "Protain coffee", desc: "With noodles and veggies...", img: "image/protin.webp", price: "$7", cal: "400cal" },
-            { name: "Wellness smoothie", desc: "Spicy and hearty...", img: "image/smoti.webp", price: "$8", cal: "500cal" }
+            { name: "Protain coffee", desc: "milk, chocolate protain whey, espresso", img: "image/protin.webp", price: "$7", cal: "400cal" },
+            { name: "Wellness smoothie", desc: "pro-yogurt, collagen, spirulina, coconut syrup", img: "image/smoti.webp", price: "$8", cal: "500cal" }
         ],
 herbal: [ 
-     { name: "Herbal Tea", desc: "Green tea with herbs...", img: "https://via.placeholder.com/200?text=Herbal1", price: "$4", cal: "200ml 150cal" },
- { name: "Herbal Tea", desc: "Green tea with herbs...", img: "https://via.placeholder.com/200?text=Herbal1", price: "$4", cal: "200ml 150cal" },
+     { name: "Persian Latte", desc: "pistachio butter, saffron extract,rose water, hot milk", img: "image/persian.webp", price: "$4", cal: "200ml 150cal" },
+ { name: "Hot Chocolate", desc: "cocoa powder, hot milk, foam", img: "image/cocoae.webp", price: "$4", cal: "200ml 150cal" },
 
-            { name: "Herbal Tea", desc: "Green tea with herbs...", img: "https://via.placeholder.com/200?text=Herbal1", price: "$4", cal: "200ml 150cal" },
-            { name: "Herbal Soup", desc: "Vegetable broth with herbs...", img: "https://via.placeholder.com/200?text=Herbal2", price: "$6", cal: "300ml 250cal" }
+            { name: "Matcha Latte", desc: "matcha powder, hot water, milk with foam", img: "image/macha.webp", price: "$4", cal: "200ml 150cal" },
+            { name: "Pumpkin spice latte", desc: "pumpkin puree,espresso, milk", img: "image/pumpkin.webp", price: "$6", cal: "300ml 250cal" }
   ]
 
         
